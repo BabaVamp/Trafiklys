@@ -42,7 +42,7 @@ public class Main {
         if (Area.equals("erhverv") || (Area.equals("blandet")) && (Traffic.equals("lav"))) {
             System.out.println("grønt");
         }else if (Emergency.equals("ja")){
-
+            System.out.println("grønt");
         }
         else{
             System.out.println("rødt");
